@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+input{
+    width:70%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    background:#2a5298;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e3c72;
+}
+
+#result{
+    margin-top:20px;
+}
+
+.weather-card{
+    margin-top:20px;
+}
